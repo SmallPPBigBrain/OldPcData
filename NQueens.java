@@ -3,6 +3,12 @@ package com.freestyle;
 public class NQueens {
 
     //the Program has some problems, it solves up to 2 or 3 solutions correctly rest probably are wrong or are repeated so need tos check
+    //29/10/2023 Code Explanation: This is an unfinished program but still generates the right output before the errors.
+    /*
+    Basically I created a chessboard (non GUI) using a double dimensional array of boolean type
+    a queen placed is for value = true
+    a queen missing is for value = false
+    */
 
     public static boolean [] [] board = new boolean[8][8];
     public static int count;
